@@ -1,0 +1,58 @@
+<html>
+<head>
+<link rel="stylesheet" href="css_tabs.css">
+</head>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+<body>
+	<div id="css_tabs">
+		<!-- 라디오 버튼 -->
+		<input id="tab1" type="radio" name="tab" checked="checked" /> <input
+			id="tab2" type="radio" name="tab" />
+
+		<!-- 라벨 : 화면에 표시되는 탭 제목 -->
+		<label for="tab1">Android</label> <label for="tab2">iOS</label>
+
+		<!-- 탭 내용 : 탭 제목을 선택했을 때 표시되는 본문 -->
+		<div class="tab1_content">
+			<br /> LocalPay Android <br />
+			<table border="1">
+				<tr>
+					<td>OS</td>
+					<td>Build Time</td>
+					<td>Version</td>
+					<td>Download</td>
+				</tr>
+				<tr>
+					<td>Android</td>
+					<td>20181221 00:00</td>
+					<td>01.00.01</td>
+					<td><a href="https://daonlink.github.io/Android/localpay_v01.00.00_20200101.apk"
+						type="application/vnd.android.package-archive" class="button">DownLoad</a></td>
+				</tr>
+			</table>
+			<br /> <br /> <br />
+		</div>
+
+		<div class="tab2_content">
+			<br /> LocalPay iOS <br />
+			<table border="1">
+				<tr>
+					<td>OS</td>
+					<td>Build Time</td>
+					<td>Version</td>
+					<td>Download</td>
+				</tr>
+				<tr>
+					<td>iOS</td>
+					<td>20181221 03:00</td>
+					<td>01.00.01</td>
+					<td><a
+						href="itms-services://?action=download-manifest&url=https://daonlink.github.io/iOS/localpay_v01.00.00_20200101.plist"
+						class="button">DownLoad</a></td>
+				</tr>
+			</table>
+			<br />
+		</div>
+</body>
+</html>
